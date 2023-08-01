@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="stylesheet" href="style.css"> -->
   <link rel="stylesheet" href="about.css">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rubik+Dirt&display=swap');
@@ -32,24 +31,28 @@
           <li><a href="logout" class="nav__elements">Logout</a></li>
         </ul>
       </div>
-
       <div id="lower__nav">
         <div class="nav__menu-container">
-          <i id="bars" class="fa-solid fa-bars bars"></i>
+          <button class="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </button>
           <a class="lower__nav-logo-container" href="index.html">
             <img class="lower__nav-logo" src="Assets/logo capitan.png" alt="Capitan logo">
           </a>
-
-          <ul class="lower__nav-menu lower__nav-menu-desktop">
+          <ul class="lower__nav-menu lower__nav-menu-desktop lower__nav-menu-visible">
+            <button class="menu__button-x">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
             <li><a href="about.html" class="lower__nav-elements nav__elements-orange ">About</a></li>
             <li><a href="#main" class="lower__nav-elements lower__nts-av__elements-black">Program</a></li>
-            <li><a href="#join" class="lower__nav-elements nav__elements-black">Join</a></li>
-            <li><a href="#sponsor" class="lower__nav-elements nav__elements-black">Sponsor</a></li>
-            <li><a href="#news" class="lower__nav-elements nav__elements-black">News</a></li>
-            <li><a href="#news" class="lower__nav-elements lower__nav-menu-btn">Campaign</a></li>
+            <li><a href="#speakers" class="lower__nav-elements nav__elements-black">Join</a></li>
+            <li><a href="#partners" class="lower__nav-elements nav__elements-black">Sponsor</a></li>
+            <li><a href="#footer" class="lower__nav-elements nav__elements-black">News</a></li>
+            <li><a href="#" class="lower__nav-elements lower__nav-menu-btn">Campaign</a></li>
           </ul>
         </div>
       </div>
+
     </nav>
 
     </div>
