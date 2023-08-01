@@ -7,9 +7,10 @@
   <link rel="stylesheet" href="style.css">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rubik+Dirt&display=swap');
-  </style>
+  </style> 
+
   <script src="https://kit.fontawesome.com/675259b560.js" crossorigin="anonymous"></script>
-  <!-- <script defer type="text/javascript" src="project-section.js"></script> -->
+  <script defer type="text/javascript" src="index.js"></script>
 
 
   <title>Capstone Project</title>
@@ -18,14 +19,14 @@
 
 <body>
   <header>
-    <nav class="navbar">
+    <nav id="navbar">
       <div id="upper__nav">
         <ul class="upper__nav-social ">
           <li><a href="F" class="nav__elements">
-            <i class="fa-brands fa-facebook-f" ></i>          </a></li>
+              <i class="fa-brands fa-facebook-f"></i> </a></li>
           <li><a href="T" class="nav__elements">
-            <i class="fa-brands fa-twitter"></i>
-          </a></li>
+              <i class="fa-brands fa-twitter"></i>
+            </a></li>
           <li><a href="English" class="nav__elements">English</a></li>
           <li><a href="my-page" class="nav__elements">My Page</a></li>
           <li><a href="logout" class="nav__elements">Logout</a></li>
@@ -33,74 +34,93 @@
       </div>
 
       <div id="lower__nav">
-        <i id="bars" class="fa-solid fa-bars bars"></i>
-        <a class="lower__nav-logo-container" href="#">
-          <img class="lower__nav-logo" src="Assets/logo capitan.png" alt="Capitan logo">
-        </a>
-        <ul class="lower__nav-menu">
-          <li><a href="#about" class="nav__elements">About</a></li>
-          <li><a href="#program" class="nav__elements">Program</a></li>
-          <li><a href="#join" class="nav__elements">Join</a></li>
-          <li><a href="#sponsor" class="nav__elements">Sponsor</a></li>
-          <li><a href="#news" class="nav__elements">News</a></li>
-          <li><a href="#news" class="nav__elements lower__nav-menu-btn">CC campaign</a></li>
-        </ul>
+        <div class="nav__menu-container">
+          <button class="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <a class="lower__nav-logo-container" href="#">
+            <img class="lower__nav-logo" src="Assets/logo capitan.png" alt="Capitan logo">
+          </a>         
+                    <ul class="lower__nav-menu lower__nav-menu-desktop lower__nav-menu-visible">
+            <button class="menu__button-x">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+            <li><a href="about.html" class="lower__nav-elements nav__elements-orange ">About</a></li>
+            <li><a href="#main" class="lower__nav-elements lower__nts-av__elements-black">Program</a></li>
+            <li><a href="#speakers" class="lower__nav-elements nav__elements-black">Join</a></li>
+            <li><a href="#partners" class="lower__nav-elements nav__elements-black">Sponsor</a></li>
+            <li><a href="#footer" class="lower__nav-elements nav__elements-black">News</a></li>
+            <li><a href="#" class="lower__nav-elements lower__nav-menu-btn">Campaign</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
     </div>
     <section id="hero">
       <div class="hero__container'">
         <h2 class="hero__container-subtitle">"Hello, aviators"</h2>
-        <h1 class="hero__container-title">Welcome to SkyConnect Global <br>2023!</h1>
-        <p class="hero__container-p paragraphs">
-          Join our thrilling online event on the 18th of August 2023, where aviation enthusiasts unite for inspiring conferences and talks, elevating your knowledge and experiences in the fascinating world of aviation.</p>
+        <h1 class="hero__container-title">Welcome to SkyConnect Global <br>2023</h1>
+        <div class="p__container">
+          <p class="hero__container-p paragraphs">
+            Join our thrilling online event on the 18th of August 2023, where aviation enthusiasts unite for inspiring
+            conferences and talks, elevating your knowledge and experiences in the fascinating world of aviation.</p>
+        </div>
         <p class="date">2023.10.15(THU) ~ 18(FRI)</p>
         <p class="location">
           Join our global virtual event for aviation enthusiasts.</p>
       </div>
     </section>
 
-
-    <secction id="main__program">
+    <secction id="main">
       <div class="main__program-container">
         <div class="main__program-h3-container">
-          <h3>Main Program <hr class="short"></h3>          
+          <h3>Main Program
+            <hr class="short">
+          </h3>
         </div>
         <div class="main__grid">
           <div class="main__grid-card-container">
             <img src="Assets/icon-lecture.svg" alt="img">
             <h4 class="main__grid-card-h4">Lecture</h4>
-            <p class="main__grid-card-p">Listen to the speakers from various countries about the messages of sharing and opening..</p>
+            <p class="main__grid-card-p">Listen to the speakers from various countries about the messages of sharing and
+              opening..</p>
           </div>
           <div class="main__grid-card-container">
             <img src="Assets/icon-exhibition.svg" alt="img">
             <h4 class="main__grid-card-h4">Exhibition</h4>
-            <p class="main__grid-card-p">Listen to the speakers from various countries about the messages of sharing and opening..</p>
+            <p class="main__grid-card-p">Listen to the speakers from various countries about the messages of sharing and
+              opening..</p>
           </div>
           <div class="main__grid-card-container">
             <img src="Assets/icon-forum.svg" alt="img">
             <h4 class="main__grid-card-h4">Forum</h4>
-            <p class="main__grid-card-p">Listen to the speakers from various countries about the messages of sharing and opening..</p>
+            <p class="main__grid-card-p">Listen to the speakers from various countries about the messages of sharing and
+              opening..</p>
           </div>
           <div class="main__grid-card-container">
             <img src="Assets/icon-workshop.svg" alt="img">
             <h4 class="main__grid-card-h4">Workshop</h4>
-            <p class="main__grid-card-p">Listen to the speakers from various countries about the messages of sharing and opening..</p>
+            <p class="main__grid-card-p">Listen to the speakers from various countries about the messages of sharing and
+              opening..</p>
           </div>
           <div class="main__grid-card-container">
             <img src="Assets/icon-ignite.svg" alt="img">
             <h4 class="main__grid-card-h4">Ignite</h4>
-            <p class="main__grid-card-p">Listen to the speakers from various countries about the messages of sharing and opening..</p>
+            <p class="main__grid-card-p">Listen to the speakers from various countries about the messages of sharing and
+              opening..</p>
           </div>
-        
+
         </div>
-        <a href=""><button class="main__grid-btn">Join CC Global Summit 2015</button></a>
         <a class="speaker__grid-link" href="">SEE THE HOLE PROGRAM</a>
+        <a href=""><button class="main__grid-btn">Join CC Global Summit 2015</button></a>
       </div>
     </secction>
 
     <secction id="speakers">
-      <h3>Featured Speakers <hr class="short"></h3>
+      <h3>Featured Speakers
+        <hr class="short">
+      </h3>
       <div class="featured__speakers-grid">
         <div class="speakers__grid-item">
           <div>
@@ -108,9 +128,11 @@
           </div>
           <div class="speaker__description">
             <h4 class="speaker__description-h4">Capitan Delta</h4>
-            <h5 class="speaker__description-h5">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h5>
+            <h5 class="speaker__description-h5">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School
+            </h5>
             <hr class="speakers__hr">
-            <p class="speaker__description-p">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
+            <p class="speaker__description-p">A daily selection of privately personalized reads; no accounts or sign-ups
+              required. Has been the
               industry's standard.</p>
           </div>
         </div>
@@ -120,9 +142,11 @@
           </div>
           <div class="speaker__description">
             <h4 class="speaker__description-h4">Capitan Delta</h4>
-            <h5 class="speaker__description-h5">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h5>
+            <h5 class="speaker__description-h5">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School
+            </h5>
             <hr class="speakers__hr">
-            <p class="speaker__description-p">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
+            <p class="speaker__description-p">A daily selection of privately personalized reads; no accounts or sign-ups
+              required. Has been the
               industry's standard.</p>
           </div>
         </div>
@@ -132,9 +156,11 @@
           </div>
           <div class="speaker__description">
             <h4 class="speaker__description-h4">Capitan Delta</h4>
-            <h5 class="speaker__description-h5">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h5>
+            <h5 class="speaker__description-h5">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School
+            </h5>
             <hr class="speakers__hr">
-            <p class="speaker__description-p">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
+            <p class="speaker__description-p">A daily selection of privately personalized reads; no accounts or sign-ups
+              required. Has been the
               industry's standard.</p>
           </div>
         </div>
@@ -144,9 +170,11 @@
           </div>
           <div class="speaker__description">
             <h4 class="speaker__description-h4">Capitan Delta</h4>
-            <h5 class="speaker__description-h5">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h5>
+            <h5 class="speaker__description-h5">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School
+            </h5>
             <hr class="speakers__hr">
-            <p class="speaker__description-p">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
+            <p class="speaker__description-p">A daily selection of privately personalized reads; no accounts or sign-ups
+              required. Has been the
               industry's standard.</p>
           </div>
         </div>
@@ -156,9 +184,11 @@
           </div>
           <div class="speaker__description">
             <h4 class="speaker__description-h4">Capitan Delta</h4>
-            <h5 class="speaker__description-h5">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h5>
+            <h5 class="speaker__description-h5">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School
+            </h5>
             <hr class="speakers__hr">
-            <p class="speaker__description-p">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
+            <p class="speaker__description-p">A daily selection of privately personalized reads; no accounts or sign-ups
+              required. Has been the
               industry's standard.</p>
           </div>
         </div>
@@ -168,30 +198,33 @@
           </div>
           <div class="speaker__description">
             <h4 class="speaker__description-h4">Capitan Delta</h4>
-            <h5 class="speaker__description-h5">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h5>
+            <h5 class="speaker__description-h5">Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School
+            </h5>
             <hr class="speakers__hr">
-            <p class="speaker__description-p">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the
+            <p class="speaker__description-p">A daily selection of privately personalized reads; no accounts or sign-ups
+              required. Has been the
               industry's standard.</p>
           </div>
         </div>
-      </div><div class="btn__more-container">
-        <button class="speakers__ItemsBtn">MORE  <img class="down__arrow" src="Assets/down-arrow.png" alt=""></button>
+      </div>
+      <div class="btn__more-container">
+        <button class="speakers__ItemsBtn">MORE <img class="down__arrow" src="Assets/down-arrow.png" alt=""></button>
       </div>
     </secction>
-    <secction id="partners">
-      <h3>Partners</h3>
-      <br>
-      <ul>
-        <li>Airbus</li>
-        <li>Boeing</li>
-        <li>Avianca</li>
-        <li>Latam</li>
-        <li>Aviacion</li>
-      </ul>
+    <secction id="partners" class="partners__container">
+      <h3>Partners
+        <hr class="short">
+      </h3>
+      <div class="partners__list">
+        <img src="Assets/airbus.svg" alt="">
+        <img src="Assets/Boeing_full_logo.svg" alt="">
+        <img src="Assets/nasa-logo.svg" alt="">
+        <img src="Assets/GE-aviation.svg" alt="">
+        <img src="Assets/safran.svg" alt="">
+      </div>
     </secction>
-    <hr><br>
-    <secction id="footer">footer
-      <img src="" alt="otro logo">
+    <secction id="footer" class="footer1">
+      <img src="Assets/logo capitan.png" alt="otro logo">
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br><br>Soluta quae aliquam molestiae veritatis
         dolorem obcaecati recusandae quas placeat sint, aut dignissimos asperiores reiciendis a. Facere nisi optio
         quod? Aperiam, deserunt?</p>
