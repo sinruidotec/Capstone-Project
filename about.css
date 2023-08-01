@@ -72,11 +72,9 @@ body {
 }
 
 .lower__nav-elements {
-  font-family: 'Lato', sans-serif;
+  font: 30px/82px 'Lato', sans-serif;
   color: #fff;
-  font-size: 30px;
   margin: 0 10px;
-  line-height: 82px;
   width: max-content;
 }
 
@@ -89,7 +87,6 @@ body {
   padding: 12px 0 25px 0;
   padding: 109px 12px 71px 12px;
   background-image: url(https://wallpaperaccess.com/full/7502746.jpg);
-  background-repeat: no-repeat;
   background-size: 1900px;
   font-family: 'Lato', sans-serif;
   background-position: 30% 90%;
@@ -120,11 +117,8 @@ body {
 .paragraphs {
   color: #000;
   text-align: center;
-  font-family: 'Lato', sans-serif;
-  font-size: 14px;
+  font: 400 14px/25px 'Lato', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  line-height: 25px;
   letter-spacing: -0.84px;
   margin: 25px 0;
 }
@@ -142,21 +136,15 @@ body {
 .date {
   color: #7a7a7a;
   text-align: center;
-  font-family: 'Lato', sans-serif;
-  font-size: 12px;
+  font: 700 12px/25px 'Lato', sans-serif;
   font-style: normal;
-  font-weight: 700;
-  line-height: 25px; /* 208.333% */
 }
 
 .location {
   color: #5f5f5f;
   text-align: center;
-  font-family: 'Lato', sans-serif;
-  font-size: 12px;
+  font: 800 12px/25px 'Lato', sans-serif;
   font-style: normal;
-  font-weight: 800;
-  line-height: 25px;
   letter-spacing: 0.24px;
   text-decoration-line: underline;
 }
@@ -176,12 +164,9 @@ body {
 
 .main__program-h3-container h3 {
   color: #2c2c2c;
-  font-family: 'Lato', sans-serif;
+  font: 700 20px/28px 'Lato', sans-serif;
   text-align: center;
-  font-size: 20px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 28px;
   letter-spacing: -0.4px;
 }
 
@@ -197,11 +182,8 @@ body {
 .main__program-h3-container p {
   color: #838383;
   text-align: center;
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
+  font: 700 16px/21px 'Lato', sans-serif;
   font-style: normal;
-  font-weight: 700;
-  line-height: 21px;
   letter-spacing: -0.48px;
   margin: 20px 0 35px 0;
 }
@@ -240,31 +222,22 @@ body {
 .main__grid-card-h4 {
   width: 200px;
   color: #ff5438;
-  font-family: 'Lato', sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 25px;
+  font: 700 14px/25px 'Lato', sans-serif;
   text-align: left;
 }
 
 .main__grid-card-p {
-  font-family: 'Lato', sans-serif;
+  font: 700 9px/22px 'Lato', sans-serif;
   color: #fff;
-  font-size: 9px;
-  font-weight: 700;
-  line-height: 22px;
   letter-spacing: 0.06em;
   text-align: left;
 }
 
 .main__grid-btn {
-  font-family: 'Lato', sans-serif;
+  font: 900 16px/28px 'Lato', sans-serif;
   background: #ff4f38;
   padding: 20px 50px;
   color: #fff;
-  font-size: 16px;
-  font-weight: 900;
-  line-height: 28px;
 }
 
 #past__events {
@@ -276,11 +249,8 @@ body {
 
 #past__events h3 {
   color: #2c2c2c;
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
+  font: 700 20px/28px 'Lato', sans-serif;
   font-style: normal;
-  font-weight: 700;
-  line-height: 28px; /* 140% */
   letter-spacing: -0.4px;
   margin-bottom: 20px;
 }
@@ -288,11 +258,8 @@ body {
 .past__events-p {
   color: #838383;
   text-align: center;
-  font-family: 'Lato', sans-serif;
-  font-size: 12px;
+  font: 700 12px/21px 'Lato', sans-serif;
   font-style: normal;
-  font-weight: 700;
-  line-height: 21px;
   letter-spacing: -0.36px;
 }
 
@@ -323,11 +290,8 @@ body {
 
 #partners h3 {
   color: #fff;
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
+  font: 400 20px/28px 'Lato', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  line-height: 28px; /* 140% */
   letter-spacing: -0.2px;
   margin-bottom: 25px;
 }
@@ -371,11 +335,8 @@ body {
 
 #footer p {
   color: #3b3e45;
-  font-family: 'Lato', sans-serif;
-  font-size: 10px;
+  font: 700 10px/13px 'Lato', sans-serif;
   font-style: normal;
-  font-weight: 700;
-  line-height: 13.078px; /* 130.779% */
   letter-spacing: -0.1px;
 }
 
@@ -404,10 +365,8 @@ body {
 
   .nav__elements {
     color: #d9d9d9;
-    font-family: 'Lato', sans-serif;
-    font-size: 12px;
+    font: 400 12px 'Lato', sans-serif;
     font-style: normal;
-    font-weight: 400;
     line-height: normal;
   }
 
@@ -450,12 +409,10 @@ body {
   }
 
   .lower__nav-elements {
-    font-family: 'Lato', sans-serif;
+    font: 800 14px 'Lato', sans-serif;
     color: #868686;
     font-size: 14px;
     font-style: normal;
-    font-weight: 800;
-    line-height: normal;
   }
 
   .lower__nav-menu-desktop {
@@ -520,13 +477,10 @@ body {
 
   .paragraphs-2 {
     display: block;
-    color: rr;
+    color: #515151;
     text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-size: 14px;
+    font: 400 14px/25px 'Lato', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    line-height: 25px; /* 178.571% */
   }
 
   .hero__container-contact {
