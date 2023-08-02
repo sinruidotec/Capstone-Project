@@ -1,7 +1,9 @@
-# Portfolio
-Portfolio: setup and mobile first
-
 <a name="readme-top"></a>
+
+# 📖 [My capstone project] <a name="Welcome to SkyConnect Global"></a>
+
+**[RWD Capstone Project]** is a web development project for Microverse in the block 5 of  module 1.
+
 
 # 📗 Table of Contents.
 
@@ -24,7 +26,7 @@ Portfolio: setup and mobile first
 - [📝 License](#license)
 
 
-# 📖 [Portfolio.] <a name="about-project"></a>
+# 📖 [Portfolio.] <a name="about-project"> SkyConnect Global. My capstone has created a web page that promotes the holding of an aeronautical event in which different speakers and industry professionals will participate, where they share their knowledge with other aviation professionals and fans in order to reach more people. The event will be totally online.</a>
 
 
 **[Portfolio]** It is a showcase to show my current and future projects.
@@ -92,6 +94,7 @@ Example commands:
 
 ### Install
 
+To retrieve node dependencies run npm install
 
 ### Usage
 
@@ -154,7 +157,9 @@ If you like this project we encourage you to support Microverse to keep helping 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-This project is based on the inspiration  provided by [Creative Commons license of the design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015t) created by [Cindy Shin in Behance]. (https://www.behance.net/adagio07) I appreciate their contribution to the community and their work on the original project.
+Credits to Cindy Shin for sharing it's template!
+
+See the [Original design idea by Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
