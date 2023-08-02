@@ -55,6 +55,7 @@ Portfolio: setup and mobile first
 - **[Linterns_Best_Practices]**
 - **[Responsive]**
 - **[DOM_Manipulation]**
+- **[Deployed_with_GitHub_Pages]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,7 +110,7 @@ No tests needed at the moment
 
 ### Deployment
 
-Visit the deployed website at https://sinruidotec.github.io/Desktop-Version-Portfolio/
+Visit the deployed website at https://sinruidotec.github.io/Capstone-Project/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -151,8 +152,6 @@ If you like this project we encourage you to support Microverse to keep helping 
 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-This project is based on the inspiration provided by Creative Commons license of the design created by Cindy Shin in Behance. I appreciate their contribution to the community and their work on the original project.
 
 
 This project is based on the inspiration  provided by [Creative Commons license of the design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015t) created by [Cindy Shin in Behance]. (https://www.behance.net/adagio07) I appreciate their contribution to the community and their work on the original project.
