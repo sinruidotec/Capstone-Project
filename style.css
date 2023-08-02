@@ -22,25 +22,29 @@ body {
 #lower__nav {
   width: 100%;
   height: 63px;
-  padding-left: 23px;
   background: #fff;
   display: flex;
-  justify-content: start;
 }
 
 .nav__menu-container {
+  position: relative;
+  width: 100%;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 .nav-toggle {
+  position: absolute;
+  left: 23px;
   font-size: 1.5rem;
   color: #534e4e;
   cursor: pointer;
   background: none;
+  display: flex;
 }
 
-.menu__button-x {
+.closeMenu {
   display: flex;
   justify-content: flex-start;
   padding-left: 24px;
@@ -53,7 +57,6 @@ body {
 }
 
 .lower__nav-logo {
-  margin-left: 60%;
   width: 131px;
 }
 
@@ -225,7 +228,8 @@ body {
 .featured__speakers-grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(5);
+  grid-template-columns: minmax(100px, 1fr) ;
+  grid-template-rows: repeat(2);
   gap: 17px;
   margin: 30px 0;
 }
@@ -350,7 +354,7 @@ body {
     display: none;
   }
 
-  .menu__button-x {
+  .closeMenu {
     display: none;
   }
 
@@ -414,7 +418,7 @@ body {
   }
 
   #hero {
-    padding: 116px 441px 121px 206px;
+    padding: 116px 395px 121px 206px;
   }
 
   .hero__container-title {
@@ -564,8 +568,8 @@ body {
     letter-spacing: -0.7px;
   }
 
-  .speakers__grid-item img {
-    width: 178px;
+  .speakers__grid-item {
+    display: none;
   }
 
   .hidden-mobile {
@@ -582,6 +586,320 @@ body {
   }
 
   #partners {
+    width: 100%;
+    display: block;
+    height: 242px;
+    padding: 35px 120px;
+    background: #414246;
+  }
+
+  .partners__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #partners h3 {
+    color: #8f8f91;
+    font: 400 30px/28px 'Lato', sans-serif;
+    letter-spacing: -0.3px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .partners__list {
+    display: flex;
+    justify-content: space-evenly;
+    color: #8f8f91;
+  }
+
+  .partners__list img {
+    width: 150px;
+  }
+
+  #footer {
+    height: 245px;
+    padding: 74px 221px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 65px;
+  }
+
+  #footer img {
+    width: 235px;
+  }
+
+  #footer p {
+    color: #000;
+    font: 700 14px/28px 'Lato', sans-serif;
+    letter-spacing: -0.14px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body {
+    width: 100%;
+  }
+
+  #navbar {
+    width: 100%;
+    position: fixed;
+  }
+
+  #upper__nav {
+    display: block;
+    background-color: #3e3e3e;
+    padding: 0 190px;
+  }
+
+  .upper__nav-social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .nav__elements {
+    color: #d9d9d9;
+    font: 400 12px 'Lato', sans-serif;
+  }
+
+  .nav-toggle {
+    display: none;
+  }
+
+  .closeMenu {
+    display: none;
+  }
+
+  #lower__nav {
+    padding: 0 198px 0 209px;
+  }
+
+  .nav__menu-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .lower__nav-logo {
+    margin: 0;
+    padding: 0;
+  }
+
+  .lower__nav-menu {
+    margin: 20px;
+    padding: 0;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background: none;
+    position: static;
+    top: 0;
+    width: 100%;
+    height: auto;
+    left: 0;
+  }
+
+  .lower__nav-elements {
+    color: #868686;
+    font-size: 14px;
+    font-weight: 800;
+  }
+
+  .lower__nav-menu-desktop {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .nav__elements-orange {
+    color: orange;
+  }
+
+  .lower__nav-menu-btn {
+    display: flex;
+    width: max-content;
+    height: 48px;
+    padding: 0 12px;
+    justify-content: center;
+    align-items: center;
+    color: #ec4327;
+    border: 5px solid #ec4327;
+    margin: 0;
+    text-align: center;
+  }
+
+  #hero {
+    padding: 116px 395px 121px 206px;
+  }
+
+  .hero__container-title {
+    font-size: 68px;
+    margin: 0 0 35px 25px;
+  }
+
+  .hero__container-subtitle {
+    font-size: 36px;
+    margin: 0 25px;
+  }
+
+  .p__container {
+    display: flex;
+    width: 100%;
+    padding: 36px 29px;
+    justify-content: center;
+    align-items: center;
+    border: 8.497px solid #fff;
+    background: #f8f8f8;
+    margin: 63px 25px;
+  }
+
+  .paragraphs {
+    font-size: 25px;
+    line-height: 36.11px;
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .date {
+    color: #595959;
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: -3px;
+    margin: 24px 25px;
+  }
+
+  .location {
+    display: flex;
+    height: 36px;
+    color: #868686;
+    font-size: 27px;
+    margin: 0 25px;
+  }
+
+  .main__program-container {
+    margin-top: 0;
+    padding: 70px 0;
+  }
+
+  .main__program-h3-container h3 {
+    font-size: 30px;
+    letter-spacing: -0.3px;
+    background-color: #595959;
+  }
+
+  #speakers h3 {
+    color: #000;
+    font: 400 32px/28px 'Lato', sans-serif;
+    letter-spacing: -0.3px;
+    margin-bottom: 50px;
+  }
+
+  .short {
+    left: 48%;
+    width: 51px;
+    height: 3px;
+    margin-top: 17px;
+  }
+
+  .main__grid {
+    display: flex;
+  }
+
+  .main__grid-card-container {
+    max-width: 200px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 22px 18px;
+  }
+
+  .main__grid-card-h4 {
+    color: #ff5438;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .main__grid-card-p {
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .main__grid-btn {
+    display: none;
+  }
+
+  .speaker__grid-link {
+    display: block;
+    color: #fff;
+    font: 400 20px/20px 'Lato', sans-serif;
+    letter-spacing: -0.2px;
+    text-decoration-line: underline;
+  }
+
+  #speakers {
+    padding: 74px 204px;
+  }
+
+  .featured__speakers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6);
+    gap: 20px;
+    margin: 25px 0;
+  }
+
+  .speaker__description-h4 {
+    font-size: 24px;
+    letter-spacing: -0.5px;
+  }
+
+  .speaker__description-h5 {
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: -1.35px;
+  }
+
+  .speakers__hr {
+    width: 25px;
+    height: 2.5px;
+    background: #d9d9d9;
+  }
+
+  .speaker__description-p {
+    width: 305px;
+    height: 95px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.7px;
+  }
+
+  .speakers__grid-item {
+    display: none;
+  }
+
+  .hidden-mobile {
+    display: block;
+    display: flex;
+  }
+
+  .btn__more-container {
+    display: none;
+  }
+
+  .speakers__ItemsBtn {
+    display: none;
+  }
+
+  #partners {
+    width: 100%;
     display: block;
     height: 242px;
     padding: 35px 120px;
