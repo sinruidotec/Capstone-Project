@@ -93,16 +93,16 @@ body {
 }
 
 .hero__container-title {
-  font-family: 'Lato', sans-serif;
-  font-size: 46px;
-  color: #f70;
+  font: 900 50px/50px 'Lato', sans-serif;
+  color: #ec5242;
   text-align: center;
 }
 
 .hero__container-subtitle {
-  color: #fa9200;
+  color: #fa6800;
   font-weight: 400;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .hero__container-p {
