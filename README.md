@@ -29,7 +29,7 @@
 # 📖<a name="about-project"> SkyConnect Global. My capstone has created a web page that promotes the holding of an aeronautical event in which different speakers and industry professionals will participate, where they share their knowledge with other aviation professionals and fans in order to reach more people. The event will be totally online.</a>
 
 
-**[Portfolio]** It is a showcase to show my current and future projects.
+**[Capstone]** It is a showcase to show my current and future projects.
 
 ## 🛠 Built With <a name="built-with-">'Jonathan-Arias'</a>
 
